@@ -1,0 +1,11 @@
+git scm다운로드 
+(cmd 에서 git명령어 사용 가능)
+git config --global user.name 계정이름
+git config --global user.email 이메일주소
+입력 후 컴퓨터 내 저장소로 사용할 폴더 하나 생성
+cd C:\폴더이름 으로 이동 후 git clone 리포지토리주소 입력
+폴더 내부에 내 리포지토리와 같은 이름과 파일이 들어있는 폴더 생김
+cmd 안에서 change directory로 리포지토리로 들어간 다음 
+보내고 싶은 파일을 git add 파일이름 입력
+git commit -m "보낼 메시지 및 정보"로 커밋 남기기
+git push 사용하면 깃허브 서버에 동기화됨
